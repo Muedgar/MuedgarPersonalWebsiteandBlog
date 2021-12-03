@@ -1,0 +1,130 @@
+
+
+.component2 {
+    width: 800px;
+    height: 550px;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+
+/*containers*/
+.cardsComp {
+    width: 600px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    padding-top: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.cardComp {
+    width: 100px;
+    height: 140px;
+    background: transparent;
+    perspective: 1000px;
+}
+.cardCompFlip {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+}
+
+.cardCompFront {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.cardCompBack {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transform: rotateY(180deg);
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.pickCards {
+    width: 200px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    top: 200px;
+    left: 0;
+}
+.playgroundCards {
+    width: 300px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    top: 200px;
+    right: 0;
+}
+.cardsHuman {
+    width: 600px;
+    height: 150px;
+    border: 2px solid white;
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    display: grid;
+    padding-left: 50px;
+    padding-top: 5px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+/*containers*/
+.cardHuman {
+    width: 100px;
+    height: 140px;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    font-size: 3em;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.cardHuman:hover {
+    transform: translateY(-30px);
+}
+.cardHumanFixed {
+    transform: translateY(-30px);
+}
+
+.controls {
+    width: 100px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+.controls button {
+    width: 45px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+}
