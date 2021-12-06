@@ -6,6 +6,7 @@ components to design:
 3.article and comments component 
 
 */
+
 let lines = "crossed";
 document.getElementById("nav-toggle-button").addEventListener("click",() => {
     console.log(document.getElementById("nav-toggle-link").classList);

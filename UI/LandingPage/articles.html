@@ -8,6 +8,8 @@
     <title>Mu. edgar | Welcome</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./linkComponent/styleComponent.css">
+    <link rel="stylesheet" href="./components/ArticleComponents/component1/style.css">
+    <link rel="stylesheet" href="./singleArticleStyle.css">
 </head>
 <body>
     <nav id="navbar">
@@ -34,1311 +36,192 @@
             </ul>
         </div>
     </nav>
+    <aside class="sidebar-with-links">
+        <nav class="sidebar-with-links-nav">
+            <button class="sidebar-with-links-button">></button>
+        </nav>
+        <div class="sidebar-with-links-content">
+            <ul>
+                <li><button onclick="singleDispear()" id="navigateAppDev"><h1>application development</h1></button></li>
+                <li><button onclick="singleDispear2()" id="navigateOsDev"><h1>operating systems development</h1></button></li>
+                <li><button><h1>penetration testing development</h1></button></li>
+                <li><button><h1>dev ops</h1></button></li>
+                <li><button><h1>anti virus development</h1></button></li>
+                <li><button><h1>artificial intelligence application development</h1></button></li>
+                <li><button><h1>self driving cars application development</h1></button></li>
+            </ul>
+        </div>
+    </aside>
     <section id="articles">
-        <div class="other3">
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
+        <div id="articlesContainer" class="other3">
+        </div>
+        <div id="singleArticle">
+            <article id="singleArticleContent">
+                <img class="articleImageOne" src="./osdev.png" alt="">
+                <p class="articleTitle">
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                </p>
+                <img class="articleImageOne" src="./platform3.png" alt="">
+                <p class="articleTitle">
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                </p>
+                <img class="articleImageOne" src="./production2.png" alt="">
+                <p class="articleTitle">
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                    fjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadjafjalskdfjaslkjfdaslkdjfals;kdfjals;dfjdks
+                    asfaskdjfalskdjfalskdjfakls;dfjdkasdkladskjf;aklsdjf;aklsjfaks;ljfas;ldjf
+                    asjdfklasjdfkjskldjfalsjdfalskdjfaklsjfaksljfklsadja
+                </p>
             </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+            <div class="commentsSection">
+                <form class="commentForm" action="submit">
+                    <label for="textArea">Enter Public Comment:   </label>
+                    <textarea name="textArea" id="" cols="30" rows="5"></textarea>
+                    <button>Comment</button>
+                </form>
+                <div class="comments">
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
 
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
+
+
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
 
 
 
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
 
 
 
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
 
 
 
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
 
 
 
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-
-
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
-            <article class="article-container">
-                <a class="article-link" href="#">
-                    <img class="article-img" src="./linkComponent/img1.jpeg" alt="" srcset="">
-                    <h4 class="article-author">Authored by Mutangana Edgar</h4>
-                    <p class="article-summary">The Surface Pro shares a lot of its design traits with its lower cost counterpart, However, the resolution on the Surface Pro is higher and is 1920x1080, and the screen</p>
-                </a>
-            </article>
+                    <div class="commentContainer">
+                        <h1 class="commentorName">Commented by: <span>kalsdjfklasjdfkjsdflkjsf</span></h1>
+                    <p class="comment">
+                        askldfkalsjdfaskjdf;askldjfa;skldjf
+                        asdflkajsdl;kfjask;dfjask;dfja;skdjf;kasdjf;kasdjfasdflaksjdf;askldjfajfal;skdjf
+                        kasjflkasjdflkasjdflkajsdfklasjdf
+                        lkasdjfklsjadflkj
+                    </p>
+                    </div>
+                    
+                </div>
+            </div>
         </div>
     </section>
+    <footer style="z-index: 10;" class="thefooter">
+        <p>Created by Mutangana Edgar</p>
+        <a href="https://www.linkedin.com/in/mutangana-edgar-3b5099138/#" target="_blank">View Linkedin Profile <i class="fab fa-linkedin"></i></a>
+    </footer>
+    <script src="./components/ArticleComponents/component1/app.js"></script>
+    <script src="./appdev.js"></script>
+    <script src="./osdev.js"></script>
+    <script src="./pentest.js"></script>
+    <script src="./devops.js"></script>
+    <script src="./antivirus.js"></script>
+    <script src="./ai.js"></script>
+    <script src="./selfdriving.js"></script>
     <script src="./app.js"></script>
 </body>
 </html>

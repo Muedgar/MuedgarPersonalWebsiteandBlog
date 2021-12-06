@@ -8,6 +8,7 @@
     <title>Mu. edgar | Welcome</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./linkComponent/styleComponent.css">
+    <link rel="stylesheet" href="./signInStyle.css">
 </head>
 <body>
     <nav id="navbar">
@@ -35,12 +36,19 @@
         </div>
     </nav>
     <section id="login">
-        <div class="other4">
-            <a href="../AdminPages/articlesPage.html">Go to article dashboard</a>
-            <a href="../AdminPages/profilePage.html">Go to profile dashboard</a>
+        <div id="loggedIn" class="other4">
+            <div class="other4Tabs">
+                <button style="border-radius: 10px 0 0 0;" onclick="uploadSignIn()">Sign In</button>
+                <button style="border-radius: 0 10px 0 0;" onClick="uploadSignUp()">Sign Up</button>
+            </div>
+            <div id="other4Content"></div>
         </div>
     </section>
-    <footer class="thefooter"></footer>
+    <footer class="thefooter">
+        <p>Created by Mutangana Edgar</p>
+        <a href="https://www.linkedin.com/in/mutangana-edgar-3b5099138/#" target="_blank">View Linkedin Profile <i class="fab fa-linkedin"></i></a>
+    </footer>
     <script src="./app.js"></script>
+    <script src="./login.js"></script>
 </body>
 </html>

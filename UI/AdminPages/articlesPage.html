@@ -7,7 +7,9 @@
     <link rel="shortcut icon" href="./Mutangana Edgar_Photo.jpg" type="image/x-icon">
     <title>Mu. edgar | Welcome</title>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./linkComponent/styleComponent.css">
+    <link rel="stylesheet" href="../LandingPage/linkComponent/styleComponent.css">
+    <link rel="stylesheet" href="./articlesSideBar.css">
+    <link rel="stylesheet" href="./articles.css">
 </head>
 <body>
     <nav id="navbar">
@@ -32,10 +34,32 @@
     </nav>
     <section id="login">
         <div class="other4">
-            <a href="./profilePage.html">Go to profile dashboard</a>
+            <a class="appMetricsLink" href="./profilePage.html">Go to App Metrics Dashboard</a>
+        
+            <aside class="sidebar-with-links">
+                <nav class="sidebar-with-links-nav">
+                    <button class="sidebar-with-links-button">></button>
+                </nav>
+                <div class="sidebar-with-links-content">
+                    <ul>
+                        <li><button id="viewAllArticles" style="padding-top: 25px"><h1>All Articles</h1></button></li>
+                        <li><button id="viewAllQuestions" style="padding-top: 25px"><h1>All Questions</h1></button></li>
+                        <li><button id="createArticle" style="padding-top: 25px"><h1>Create Article</h1></button></li>
+                        <li><button id="updateArticle" style="padding-top: 25px"><h1>Update Article</h1></button></li>
+                        <li><button id="deleteArticle" style="padding-top: 25px"><h1>Delete Article</h1></button></li>
+                        <li><button id="updateProfile" style="padding-top: 25px"><h1>Update Profile</h1></button></li>
+                    </ul>
+                </div>
+            </aside>
+            <div class="noFlex" id="articleDashboardCurrentContent"></div>
         </div>
     </section>
-    <footer class="thefooter"></footer>
+    <footer class="thefooter">
+        <p>Created by Mutangana Edgar</p>
+        <a href="https://www.linkedin.com/in/mutangana-edgar-3b5099138/#" target="_blank">View Linkedin Profile <i class="fab fa-linkedin"></i></a>
+    </footer>
+
     <script src="./app.js"></script>
+    <script src="./articlesSideBar.js"></script>
 </body>
 </html>
