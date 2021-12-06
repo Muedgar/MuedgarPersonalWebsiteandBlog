@@ -1,70 +1,71 @@
 .sidebar-with-links {
-    width: 200px;
+    width: 250px;
     height: 800px;
-    z-index: 1;
     position: absolute;
     display: flex;
     flex-direction: row;
     background-color: black;
     transform: translateX(-100%);
     transition: all 0.4s linear;
+    z-index: 10;
 }
 .sidebar-with-links-content {
-    width: 100%;
+    width: 250px;
     height: 100%;
     background-color: transparent;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    overflow: hidden;
 }
 .sidebar-with-links-content ul {
-    width: 100%;
+    width: 250px;
     height: 100%;
     background-color: yellow;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-left: -35px;
 }
 .sidebar-with-links-content ul li {
     list-style: none;
 }
-.sidebar-with-links-content ul li a {
-    text-decoration: none;
-}
-.sidebar-with-links-content ul li a h1 {
-    width: 90%;
-    height: 80px;
+/* .sidebar-with-links-content ul li button {
+    background: ;
+} */
+.sidebar-with-links-content ul li button {
+    width: 200px;
+    height: 90px;
     background-color: black;
     float: left;
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     color: white;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
     box-shadow: 5px 5px 5px 5px black;
     transition: all 0.4s linear;
+    margin-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
 }
-.sidebar-with-links-content ul li a h1:hover {
+.sidebar-with-links-content ul li button:hover {
     box-shadow: none;
 }
 .sidebar-with-links-nav {
     width: 70px;
     height: 60px;
     position: absolute;
-    left: 200px;
+    left: 250px;
     top: 10px;
 }
 .sidebar-with-links-button {
     width: 100%;
     height: 100%;
     position: relative;
-    background-color: transparent;
-    color: black;
+    background-color: black;
+    color: white;
     border: 3px solid black;
     font-size: 3em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -72,6 +73,7 @@
     padding-bottom: 10px;
     transition: all 0.4s linear;
     box-shadow: 5px 5px 5px 5px yellow;
+    cursor: pointer;
 }
 .sidebar-with-links-button:hover {
     box-shadow: none;
