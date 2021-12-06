@@ -1,0 +1,52 @@
+.aboutContentContainer {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.imageAbout {
+    width: 45%;
+    height: 100%;
+    flex: left;
+}
+.imageAbout img {
+    width: 90%;
+    height: 70%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px 4px gainsboro;
+}
+.linksAbout {
+    width: 45%;
+    height: 100%;
+    flex: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -50px;
+}
+.linksAbout a {
+    width: 550px;
+    height: 70px;
+    background-color: black;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    color: yellow;
+    transition: all 0.3s linear;
+    box-shadow: 4px 4px 4px 4px rgb(0, 0, 0);
+}
+.linksAbout a:hover {
+    background-color: yellow;
+    color: black;
+    box-shadow: none;
+    border: 3px solid black;
+}
