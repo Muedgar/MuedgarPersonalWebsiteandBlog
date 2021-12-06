@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Mutangana Edgar_Photo.jpg" type="image/x-icon">
+    <title>Mu. edgar | Welcome</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./linkComponent/styleComponent.css">
+    <link rel="stylesheet" href="./contactStyle.css">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="nav-center">
+            <div class="nav-header">
+                <div class="logo">
+                    <div class="logologo">
+                        <img src="./Mutangana Edgar_Photo.jpg" alt="">
+                    </div>
+                    <h2>Mu. edgar</h2>
+                </div>
+                <button id="nav-toggle-button">
+                    <div id="torotatebutton1"></div>
+                    <div class="reduceWidth" id="todeleteButton"></div>
+                    <div id="torotatebutton2"></div>
+                </button>
+            </div>
+            <ul id="nav-toggle-link" class="links">
+                <li><a href="../LandingPage/index.html"><h3 class="linksChildren">Home</h3></a></li>
+                <li><a href="../LandingPage/about.html"><h3 class="linksChildren">About</h3></a></li>
+                <li><a href="../LandingPage/articles.html"><h3 class="linksChildren">Articles</h3></a></li>
+                <li><a href="./contact.html"><h3 class="linksChildren">Contact</h3></a></li>
+                <li><a href="../SigninPage/login.html"><button class="linksChildren">Log in</button></a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="contact">
+        <div class="other2">
+            <form class="contactForm" action="submit">
+                <label for="selectCategory">Select Category In Software Engineering that you want to ask about:</label>
+                <select class="formClass" name="selectCategory" id="">
+                    <option value="" selected>Application Development</option>
+                    <option value="">Operating Systems Development</option>
+                    <option value="">Dev Ops</option>
+                    <option value="">Penetration Testing</option>
+                    <option value="">Anti Virus Software Development</option>
+                    <option value="">Artificial Intelligence Application Development</option>
+                    <option value="">Self Driving Cars Application Development</option>
+                </select>
+                <textarea class="formClass" name="" id="" cols="100" rows="30"></textarea>
+                <label for="fileUpload">Upload any relevant files to your question i.e. Screenshots...</label>
+                <input class="formClass" type="file" name="fileUpload" id="">
+                <input class="formClass" type="button" value="Ask Question">
+            </form>
+        </div>
+    </section>
+    <footer class="thefooter">
+        <p>Created by Mutangana Edgar</p>
+        <a href="https://www.linkedin.com/in/mutangana-edgar-3b5099138/#" target="_blank">View Linkedin Profile <i class="fab fa-linkedin"></i></a>
+    </footer>
+    <script src="./app.js"></script>
+</body>
+</html>
